@@ -1,0 +1,41 @@
+*{
+    background-color: #3b3939;
+    
+}
+textarea{
+    border-radius: 2ch;
+    resize: none;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #cccccc63;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    font-size: large;
+    outline: none;
+    overflow:hidden;
+    color: #ccc;
+    
+}
+textarea:focus{
+    border-color: #cdcdcd; /* Change border color when focused */
+}
+.container {
+    
+    width: 1000px;
+    height: 900px; 
+    border: 0.5px solid #cccccc72; /* we have to remove it later */
+    
+}
+a {
+    position: absolute;
+    bottom: 32px;
+    right:120px;
+
+    border: none;
+  }
+textarea,.container{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
